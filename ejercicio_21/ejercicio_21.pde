@@ -8,8 +8,7 @@ void setup()
  int escalonx=posx+ancho_escalon;
  int escalony=posy+alto_escalon;
    line(posx,posy,ancho_escalon,alto_escalon);
+   line(posx,posy,ancho_escalon,alto_escalon);
    line(escalonx,escalony,ancho_escalon,alto_escalon);
    point(ancho_escalon+5,alto_escalon-5);
-   
- 
 }
