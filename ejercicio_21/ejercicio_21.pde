@@ -12,8 +12,8 @@ void setup()
    stroke(0);
    line(posx,posy,escalon,escalon);
    line(escalon,posy,escalon,2*escalon);
-   /*posx+=escalon;
-   posy+=escalon;*/
+  /* posx+=escalon;
+   escalon=posy+escalon;*/
    contador++;
  }
  while(contador1<puntos){
