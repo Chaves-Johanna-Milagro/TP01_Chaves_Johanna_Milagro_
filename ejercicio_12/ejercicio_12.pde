@@ -8,7 +8,7 @@ void setup()
 void keyPressed()
 {
     nombre+=key;
-    String saludo="hola "+nombre+" en bueno verte por aqui";
+    String saludo="hola "+nombre+" es bueno verte por aqui";
     println(saludo);
   
 }
